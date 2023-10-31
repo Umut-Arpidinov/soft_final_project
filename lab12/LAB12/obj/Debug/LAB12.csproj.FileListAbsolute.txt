@@ -1,0 +1,11 @@
+C:\Users\user\source\repos\LAB12\LAB12\bin\Debug\LAB12.exe.config
+C:\Users\user\source\repos\LAB12\LAB12\bin\Debug\LAB12.exe
+C:\Users\user\source\repos\LAB12\LAB12\bin\Debug\LAB12.pdb
+C:\Users\user\source\repos\LAB12\LAB12\obj\Debug\LAB12.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\LAB12\LAB12\obj\Debug\LAB12.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\source\repos\LAB12\LAB12\obj\Debug\LAB12.Form1.resources
+C:\Users\user\source\repos\LAB12\LAB12\obj\Debug\LAB12.Properties.Resources.resources
+C:\Users\user\source\repos\LAB12\LAB12\obj\Debug\LAB12.csproj.GenerateResource.cache
+C:\Users\user\source\repos\LAB12\LAB12\obj\Debug\LAB12.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\LAB12\LAB12\obj\Debug\LAB12.exe
+C:\Users\user\source\repos\LAB12\LAB12\obj\Debug\LAB12.pdb
