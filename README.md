@@ -16,11 +16,21 @@
 ## Screenshots
 
 ### Windows
-(Screens/progressRing.png)
-(Screens/windows-main.png)
+![](Screens/progressRing.png)
+![](Screens/windows-main.png)
 
 ### Android
-(Screens/1.jpg)
+![](Screens/1.jpg)
+### Android
+![](Screens/2.jpg)
+
+### Android
+![](Screens/3.jpg)
+
+### Android
+![](Screens/4.jpg)
+
+
 
 
 
