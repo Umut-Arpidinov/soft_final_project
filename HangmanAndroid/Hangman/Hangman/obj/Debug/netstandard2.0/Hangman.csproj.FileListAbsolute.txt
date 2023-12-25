@@ -1,0 +1,15 @@
+C:\Users\Redmi\Desktop\Hangman\Hangman\Hangman\bin\Debug\netstandard2.0\Hangman.deps.json
+C:\Users\Redmi\Desktop\Hangman\Hangman\Hangman\bin\Debug\netstandard2.0\Hangman.dll
+C:\Users\Redmi\Desktop\Hangman\Hangman\Hangman\bin\Debug\netstandard2.0\ref\Hangman.dll
+C:\Users\Redmi\Desktop\Hangman\Hangman\Hangman\bin\Debug\netstandard2.0\Hangman.pdb
+C:\Users\Redmi\Desktop\Hangman\Hangman\Hangman\obj\Debug\netstandard2.0\Hangman.csproj.AssemblyReference.cache
+C:\Users\Redmi\Desktop\Hangman\Hangman\Hangman\obj\Debug\netstandard2.0\Hangman.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Redmi\Desktop\Hangman\Hangman\Hangman\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Redmi\Desktop\Hangman\Hangman\Hangman\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Redmi\Desktop\Hangman\Hangman\Hangman\obj\Debug\netstandard2.0\Hangman.AssemblyInfoInputs.cache
+C:\Users\Redmi\Desktop\Hangman\Hangman\Hangman\obj\Debug\netstandard2.0\Hangman.AssemblyInfo.cs
+C:\Users\Redmi\Desktop\Hangman\Hangman\Hangman\obj\Debug\netstandard2.0\Hangman.csproj.CoreCompileInputs.cache
+C:\Users\Redmi\Desktop\Hangman\Hangman\Hangman\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Redmi\Desktop\Hangman\Hangman\Hangman\obj\Debug\netstandard2.0\Hangman.dll
+C:\Users\Redmi\Desktop\Hangman\Hangman\Hangman\obj\Debug\netstandard2.0\refint\Hangman.dll
+C:\Users\Redmi\Desktop\Hangman\Hangman\Hangman\obj\Debug\netstandard2.0\Hangman.pdb

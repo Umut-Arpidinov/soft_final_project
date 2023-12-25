@@ -28,7 +28,7 @@ namespace HangmanWindows
     public sealed partial class MainPage : Page
     {
         List<Button> buttons;
-        List<BitmapImage> images;
+        readonly List<BitmapImage> images;
         List<TextBlock> fieldChar;
         string word;
         int counterMiss = 0;
