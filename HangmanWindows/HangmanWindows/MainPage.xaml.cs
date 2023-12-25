@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.System;
@@ -16,6 +17,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
+using Windows.Web.Http;
 using static System.Net.Mime.MediaTypeNames;
 
 // Документацию по шаблону элемента "Пустая страница" см. по адресу https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x419
@@ -62,12 +64,12 @@ namespace HangmanWindows
 
         }
 
-        private void DoWordArea()
+        private async void DoWordArea()
         {
             counterMiss = 0;
             CreateKeyboard();
 
-            this.word = RandomWord();
+            this.word = await GetRandomWordFromApi();
             imageMiss.Source = images[0];
             fieldChar = new List<TextBlock>();
             wordArea.Children.Clear();
@@ -85,6 +87,31 @@ namespace HangmanWindows
             fieldChar[0].Text= this.word[0].ToString(); //first char in word
             fieldChar[this.word.Length - 1].Text = this.word[this.word.Length - 1].ToString();  // last char in word
 
+        }
+        private async Task<string> GetRandomWordFromApi()
+        {
+            progressRing.IsActive = true;
+            progressRing.Visibility = Visibility.Visible;
+
+            using (HttpClient client = new HttpClient())
+            {
+                try
+                {
+                    string apiUrl = "https://random-word-api.herokuapp.com/word";
+                    string jsonResponse = await client.GetStringAsync(new Uri(apiUrl));
+                    string word = jsonResponse.Trim('[', ']', '"');
+
+                    progressRing.IsActive = false;
+                    progressRing.Visibility = Visibility.Collapsed;
+
+                    return word.Trim();
+                }
+                catch (Exception ex)
+                {
+                
+                    return null;
+                }
+            }
         }
 
         private void BT_CLICK_NewGame(object sender, RoutedEventArgs e)

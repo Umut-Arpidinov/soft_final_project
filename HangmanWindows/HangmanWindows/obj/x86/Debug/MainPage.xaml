@@ -7,6 +7,8 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    
+    
 
     <Grid>
 
@@ -21,13 +23,16 @@
                 Margin="0,100,0,0"
                                         
                 />
-        <StackPanel x:ConnectionId='3'
+      
+        <ProgressRing x:ConnectionId='3' x:Name="progressRing" IsActive="False" Visibility="Collapsed" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,200,0,0" />
+
+        <StackPanel x:ConnectionId='4'
             x:Name="wordArea"
             VerticalAlignment="Center"
             HorizontalAlignment="Center"
             Orientation="Horizontal"/>
 
-        <Image x:ConnectionId='4' 
+        <Image x:ConnectionId='5' 
             x:Name="imageMiss"
             Source="Images/hang0.png"
             VerticalAlignment="Top"
@@ -40,23 +45,24 @@
             HorizontalAlignment="Center"
             VerticalAlignment="Bottom"
             Margin="0,0,0,20">
-            <StackPanel x:ConnectionId='5'
+            <StackPanel x:ConnectionId='6'
                 x:Name="firstRow"
                 Orientation="Horizontal"
                 HorizontalAlignment="Center"/>
-            <StackPanel x:ConnectionId='6'
+            <StackPanel x:ConnectionId='7'
                  x:Name="secondRow"
                  Orientation="Horizontal"
                  HorizontalAlignment="Center"/>
-            <StackPanel x:ConnectionId='7'
+            <StackPanel x:ConnectionId='8'
                  x:Name="thirdRow"
                  Orientation="Horizontal"
                  HorizontalAlignment="Center"/>
 
-
         </StackPanel>
             
     </Grid>
+    
+   
         
 </Page>
 

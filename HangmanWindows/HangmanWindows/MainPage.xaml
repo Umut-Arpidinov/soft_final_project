@@ -7,6 +7,8 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    
+    
 
     <Grid>
 
@@ -21,6 +23,9 @@
                 Margin="0,100,0,0"
                 Click="BT_CLICK_NewGame"
                 />
+      
+        <ProgressRing x:Name="progressRing" IsActive="False" Visibility="Collapsed" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,200,0,0" />
+
         <StackPanel
             x:Name="wordArea"
             VerticalAlignment="Center"
@@ -53,9 +58,10 @@
                  Orientation="Horizontal"
                  HorizontalAlignment="Center"/>
 
-
         </StackPanel>
             
     </Grid>
+    
+   
         
 </Page>
